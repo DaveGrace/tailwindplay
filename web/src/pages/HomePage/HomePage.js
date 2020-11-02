@@ -3,6 +3,7 @@ import { Link, routes } from '@redwoodjs/router'
 const HomePage = () => {
   return (
     <>
+    <link rel='stylesheet' href ='/build/tailwind.css'></link>
       <h1>HomePage</h1>
       <p>
         Find me in <tt>./web/src/pages/HomePage/HomePage.js</tt>
